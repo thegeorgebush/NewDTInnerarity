@@ -1,0 +1,29 @@
+html {
+  scroll-snap-type: y mandatory;
+  color: white;
+  background-color: black;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: orange;
+}
+.background-image {
+}
+
+section {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  scroll-snap-align: start;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  color: white;
+  scroll-snap-type: y mandatory;
+}
